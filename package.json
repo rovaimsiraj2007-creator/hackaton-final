@@ -1,0 +1,35 @@
+{
+  "name": "hackaton-final",
+  "version": "1.0.0",
+  "description": "HCM Lite - AI-assisted Human Capital Management System",
+  "homepage": "https://github.com/rovaimsiraj2007-creator/hackaton-final#readme",
+  "bugs": {
+    "url": "https://github.com/rovaimsiraj2007-creator/hackaton-final/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovaimsiraj2007-creator/hackaton-final.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "allowScripts": {
+    "bcrypt@5.1.1": true
+  }
+}
